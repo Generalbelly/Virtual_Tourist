@@ -1,0 +1,176 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Location"
+provides-nominal:
+- "C15Virtual_Tourist8Location"
+provides-member:
+- ["C15Virtual_Tourist8Location", ""]
+provides-dynamic-lookup:
+- "lat"
+- "pictures"
+- "pin"
+- "lon"
+depends-top-level:
+- "CLLocationCoordinate2D"
+- "NSEntityDescription"
+- "Picture"
+- "NSManagedObject"
+- "NSManagedObjectContext"
+- "NSNumber"
+- "Location"
+- "MKPointAnnotation"
+- !private "StringLiteralType"
+- !private "Double"
+depends-member:
+- !private ["PSs9AnyObject", "CLLocationCoordinate2D"]
+- !private ["PSs9AnyObject", "MKPointAnnotation"]
+- !private ["PSs9AnyObject", "NSEntityDescription"]
+- !private ["PSs9AnyObject", "coordinate"]
+- !private ["PSs9AnyObject", "entityForName"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "lat"]
+- ["PSs9AnyObject", "lon"]
+- ["PSs9AnyObject", "pictures"]
+- ["PSs9AnyObject", "pin"]
+- ["PSs9AnyObject", ""]
+- !private ["VSC22CLLocationCoordinate2D", "init"]
+- !private ["VSC22CLLocationCoordinate2D", "latitude"]
+- !private ["VSC22CLLocationCoordinate2D", "longitude"]
+- !private ["PSs11CVarArgType", "CLLocationCoordinate2D"]
+- !private ["PSs11CVarArgType", "MKPointAnnotation"]
+- !private ["PSs11CVarArgType", "NSEntityDescription"]
+- !private ["PSs11CVarArgType", "coordinate"]
+- !private ["PSs11CVarArgType", "entityForName"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "lat"]
+- ["PSs11CVarArgType", "lon"]
+- ["PSs11CVarArgType", "pictures"]
+- ["PSs11CVarArgType", "pin"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "CLLocationCoordinate2D"]
+- !private ["PSs23CustomStringConvertible", "MKPointAnnotation"]
+- !private ["PSs23CustomStringConvertible", "NSEntityDescription"]
+- !private ["PSs23CustomStringConvertible", "coordinate"]
+- !private ["PSs23CustomStringConvertible", "entityForName"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "lat"]
+- ["PSs23CustomStringConvertible", "lon"]
+- ["PSs23CustomStringConvertible", "pictures"]
+- ["PSs23CustomStringConvertible", "pin"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "CLLocationCoordinate2D"]
+- !private ["PSs9Equatable", "MKPointAnnotation"]
+- !private ["PSs9Equatable", "NSEntityDescription"]
+- !private ["PSs9Equatable", "coordinate"]
+- !private ["PSs9Equatable", "entityForName"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "lat"]
+- ["PSs9Equatable", "lon"]
+- ["PSs9Equatable", "pictures"]
+- ["PSs9Equatable", "pin"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "CLLocationCoordinate2D"]
+- !private ["PSs8Hashable", "MKPointAnnotation"]
+- !private ["PSs8Hashable", "NSEntityDescription"]
+- !private ["PSs8Hashable", "coordinate"]
+- !private ["PSs8Hashable", "entityForName"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "lat"]
+- ["PSs8Hashable", "lon"]
+- ["PSs8Hashable", "pictures"]
+- ["PSs8Hashable", "pin"]
+- ["PSs8Hashable", ""]
+- ["C15Virtual_Tourist8Location", "CLLocationCoordinate2D"]
+- !private ["C15Virtual_Tourist8Location", "Double"]
+- ["C15Virtual_Tourist8Location", "MKPointAnnotation"]
+- ["C15Virtual_Tourist8Location", "NSEntityDescription"]
+- ["C15Virtual_Tourist8Location", "NSManagedObjectContext"]
+- ["C15Virtual_Tourist8Location", "NSNumber"]
+- ["C15Virtual_Tourist8Location", "Picture"]
+- ["C15Virtual_Tourist8Location", "deinit"]
+- ["C15Virtual_Tourist8Location", "init"]
+- ["C15Virtual_Tourist8Location", "lat"]
+- ["C15Virtual_Tourist8Location", "lon"]
+- ["C15Virtual_Tourist8Location", "pictures"]
+- ["C15Virtual_Tourist8Location", "pin"]
+- !private ["PSo12MKAnnotation", "coordinate"]
+- !private ["PSo12MKAnnotation", "init"]
+- !private ["CSo17MKPointAnnotation", "coordinate"]
+- !private ["CSo17MKPointAnnotation", "init"]
+- !private ["CSo7MKShape", "coordinate"]
+- !private ["CSo7MKShape", "init"]
+- !private ["PSo8NSCoding", "entityForName"]
+- !private ["PSo9NSCopying", "entityForName"]
+- !private ["CSo19NSEntityDescription", "entityForName"]
+- !private ["PSo17NSFastEnumeration", "entityForName"]
+- ["CSo15NSManagedObject", "CLLocationCoordinate2D"]
+- !private ["CSo15NSManagedObject", "Double"]
+- ["CSo15NSManagedObject", "MKPointAnnotation"]
+- ["CSo15NSManagedObject", "NSEntityDescription"]
+- ["CSo15NSManagedObject", "NSManagedObjectContext"]
+- ["CSo15NSManagedObject", "NSNumber"]
+- ["CSo15NSManagedObject", "Picture"]
+- ["CSo15NSManagedObject", "init"]
+- ["CSo15NSManagedObject", "lat"]
+- ["CSo15NSManagedObject", "lon"]
+- ["CSo15NSManagedObject", "pictures"]
+- ["CSo15NSManagedObject", "pin"]
+- ["CSo15NSManagedObject", ""]
+- ["CSo8NSObject", "CLLocationCoordinate2D"]
+- !private ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "MKPointAnnotation"]
+- ["CSo8NSObject", "NSEntityDescription"]
+- ["CSo8NSObject", "NSManagedObjectContext"]
+- ["CSo8NSObject", "NSNumber"]
+- ["CSo8NSObject", "Picture"]
+- !private ["CSo8NSObject", "coordinate"]
+- !private ["CSo8NSObject", "entityForName"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "lat"]
+- ["CSo8NSObject", "lon"]
+- ["CSo8NSObject", "pictures"]
+- ["CSo8NSObject", "pin"]
+- !private ["PSo16NSObjectProtocol", "CLLocationCoordinate2D"]
+- !private ["PSo16NSObjectProtocol", "MKPointAnnotation"]
+- !private ["PSo16NSObjectProtocol", "NSEntityDescription"]
+- !private ["PSo16NSObjectProtocol", "coordinate"]
+- !private ["PSo16NSObjectProtocol", "entityForName"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "lat"]
+- ["PSo16NSObjectProtocol", "lon"]
+- ["PSo16NSObjectProtocol", "pictures"]
+- ["PSo16NSObjectProtocol", "pin"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "VSC22CLLocationCoordinate2D"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "C15Virtual_Tourist8Location"
+- !private "PSo12MKAnnotation"
+- !private "CSo17MKPointAnnotation"
+- !private "CSo7MKShape"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo19NSEntityDescription"
+- !private "PSo17NSFastEnumeration"
+- "CSo15NSManagedObject"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "228310f9cdbfc98dd97da4c216f0f67a"

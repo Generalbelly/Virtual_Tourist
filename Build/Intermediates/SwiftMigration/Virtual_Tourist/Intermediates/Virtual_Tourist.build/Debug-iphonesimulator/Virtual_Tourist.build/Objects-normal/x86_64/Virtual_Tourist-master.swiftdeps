@@ -1,0 +1,14 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
+options: "9c531e4a7d8626dcbcdc6bc2abcca5bb"
+build_time: [498407722, 464828000]
+inputs: 
+	"/Users/shimmennobuyoshi/Downloads/Virtual_Tourist-master/Virtual_Tourist/CoreDataStackManager.swift": [488628658, 0]
+	"/Users/shimmennobuyoshi/Downloads/Virtual_Tourist-master/Virtual_Tourist/Location.swift": [488628658, 0]
+	"/Users/shimmennobuyoshi/Downloads/Virtual_Tourist-master/Virtual_Tourist/PhotoAlbumViewController.swift": [488628658, 0]
+	"/Users/shimmennobuyoshi/Downloads/Virtual_Tourist-master/Virtual_Tourist/TravelLocationMapViewController.swift": [488628658, 0]
+	"/Users/shimmennobuyoshi/Downloads/Virtual_Tourist-master/Virtual_Tourist/AppDelegate.swift": [488628658, 0]
+	"/Users/shimmennobuyoshi/Downloads/Virtual_Tourist-master/Virtual_Tourist/FlickrClient.swift": [488628658, 0]
+	"/Users/shimmennobuyoshi/Downloads/Virtual_Tourist-master/Virtual_Tourist/FlickrConstants.swift": [488628658, 0]
+	"/Users/shimmennobuyoshi/Downloads/Virtual_Tourist-master/Virtual_Tourist/ImageHandler.swift": [488628658, 0]
+	"/Users/shimmennobuyoshi/Downloads/Virtual_Tourist-master/Virtual_Tourist/CollectionViewCell.swift": [488628658, 0]
+	"/Users/shimmennobuyoshi/Downloads/Virtual_Tourist-master/Virtual_Tourist/Picture.swift": [488628658, 0]

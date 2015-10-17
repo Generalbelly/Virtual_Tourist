@@ -1,0 +1,789 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FlickrClient"
+provides-nominal:
+- "C15Virtual_Tourist12FlickrClient"
+provides-member:
+- ["C15Virtual_Tourist12FlickrClient", ""]
+provides-dynamic-lookup:
+- "getImagesFromFlickr"
+- "session"
+- "handleFlickr"
+- "sharedInstance"
+- "escapedParameters"
+depends-top-level:
+- "BooleanLiteralType"
+- !private "NSJSONSerialization"
+- "Location"
+- "FlickrClient"
+- !private "NSJSONReadingOptions"
+- !private "NSCharacterSet"
+- !private "Array"
+- "NSError"
+- !private "!="
+- "String"
+- !private ">"
+- "NSURLSession"
+- "AnyObject"
+- "Void"
+- "NSObject"
+- !private "Dictionary"
+- !private "Picture"
+- !private "+"
+- !private "NSURL"
+- !private "NSHTTPURLResponse"
+- !private "NSMutableURLRequest"
+- "Bool"
+- !private "CoreDataStackManager"
+- !private "!"
+- !private "+="
+depends-member:
+- !private ["PSs9AnyObject", "Constants"]
+- !private ["PSs9AnyObject", "CoreDataStackManager"]
+- ["PSs9AnyObject", "FlickrClient"]
+- !private ["PSs9AnyObject", "HTTPMethod"]
+- !private ["PSs9AnyObject", "JSONObjectWithData"]
+- !private ["PSs9AnyObject", "Keys"]
+- !private ["PSs9AnyObject", "NSCharacterSet"]
+- !private ["PSs9AnyObject", "NSJSONReadingOptions"]
+- !private ["PSs9AnyObject", "NSJSONSerialization"]
+- !private ["PSs9AnyObject", "NSMutableURLRequest"]
+- !private ["PSs9AnyObject", "NSURL"]
+- !private ["PSs9AnyObject", "NSURLSession"]
+- !private ["PSs9AnyObject", "Picture"]
+- !private ["PSs9AnyObject", "String"]
+- !private ["PSs9AnyObject", "URLQueryAllowedCharacterSet"]
+- !private ["PSs9AnyObject", "dataTaskWithRequest"]
+- !private ["PSs9AnyObject", "destination"]
+- ["PSs9AnyObject", "escapedParameters"]
+- ["PSs9AnyObject", "getImagesFromFlickr"]
+- ["PSs9AnyObject", "handleFlickr"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "lat"]
+- !private ["PSs9AnyObject", "lon"]
+- !private ["PSs9AnyObject", "managedObjectContext"]
+- !private ["PSs9AnyObject", "resume"]
+- !private ["PSs9AnyObject", "saveContext"]
+- ["PSs9AnyObject", "session"]
+- ["PSs9AnyObject", "sharedInstance"]
+- !private ["PSs9AnyObject", "sharedSession"]
+- !private ["PSs9AnyObject", "statusCode"]
+- !private ["PSs9AnyObject", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Buffer"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "joinWithSeparator"]
+- !private ["PSs23ArrayLiteralConvertible", "AllowFragments"]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "_Buffer"]
+- !private ["PSs23ArrayLiteralConvertible", "_Element"]
+- !private ["PSs23ArrayLiteralConvertible", "append"]
+- !private ["PSs23ArrayLiteralConvertible", "count"]
+- !private ["PSs23ArrayLiteralConvertible", "init"]
+- !private ["PSs23ArrayLiteralConvertible", "isEmpty"]
+- !private ["PSs23ArrayLiteralConvertible", "joinWithSeparator"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "Constants"]
+- !private ["PSs11CVarArgType", "CoreDataStackManager"]
+- !private ["PSs11CVarArgType", "Distance"]
+- ["PSs11CVarArgType", "FlickrClient"]
+- !private ["PSs11CVarArgType", "HTTPMethod"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "JSONObjectWithData"]
+- !private ["PSs11CVarArgType", "Keys"]
+- !private ["PSs11CVarArgType", "NSCharacterSet"]
+- !private ["PSs11CVarArgType", "NSJSONReadingOptions"]
+- !private ["PSs11CVarArgType", "NSJSONSerialization"]
+- !private ["PSs11CVarArgType", "NSMutableURLRequest"]
+- !private ["PSs11CVarArgType", "NSURL"]
+- !private ["PSs11CVarArgType", "NSURLSession"]
+- !private ["PSs11CVarArgType", "Picture"]
+- !private ["PSs11CVarArgType", "String"]
+- !private ["PSs11CVarArgType", "URLQueryAllowedCharacterSet"]
+- !private ["PSs11CVarArgType", "dataTaskWithRequest"]
+- !private ["PSs11CVarArgType", "destination"]
+- ["PSs11CVarArgType", "escapedParameters"]
+- ["PSs11CVarArgType", "getImagesFromFlickr"]
+- ["PSs11CVarArgType", "handleFlickr"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "lat"]
+- !private ["PSs11CVarArgType", "lon"]
+- !private ["PSs11CVarArgType", "resume"]
+- ["PSs11CVarArgType", "session"]
+- ["PSs11CVarArgType", "sharedInstance"]
+- !private ["PSs11CVarArgType", "sharedSession"]
+- !private ["PSs11CVarArgType", "statusCode"]
+- !private ["PSs11CVarArgType", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs14CollectionType", "Element"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "Value"]
+- !private ["PSs14CollectionType", "_Buffer"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "append"]
+- !private ["PSs14CollectionType", "count"]
+- !private ["PSs14CollectionType", "init"]
+- !private ["PSs14CollectionType", "isEmpty"]
+- !private ["PSs14CollectionType", "joinWithSeparator"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs10Comparable", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- !private ["VC15Virtual_Tourist12FlickrClient9Constants", "API_KEY"]
+- !private ["VC15Virtual_Tourist12FlickrClient9Constants", "BaseURL"]
+- !private ["VC15Virtual_Tourist12FlickrClient9Constants", "EXTRAS"]
+- !private ["VC15Virtual_Tourist12FlickrClient9Constants", "FORMAT"]
+- !private ["VC15Virtual_Tourist12FlickrClient9Constants", "METHOD"]
+- !private ["VC15Virtual_Tourist12FlickrClient9Constants", "NO_JSON_CALLBACK"]
+- !private ["VC15Virtual_Tourist12FlickrClient9Constants", "SAFE_SEARCH"]
+- !private ["C15Virtual_Tourist20CoreDataStackManager", "managedObjectContext"]
+- !private ["C15Virtual_Tourist20CoreDataStackManager", "saveContext"]
+- !private ["C15Virtual_Tourist20CoreDataStackManager", "sharedInstance"]
+- !private ["PSs28CustomDebugStringConvertible", "Element"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "Key"]
+- !private ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "Value"]
+- !private ["PSs28CustomDebugStringConvertible", "_Buffer"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "append"]
+- !private ["PSs28CustomDebugStringConvertible", "count"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "isEmpty"]
+- !private ["PSs28CustomDebugStringConvertible", "joinWithSeparator"]
+- !private ["PSs28CustomDebugStringConvertible", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "Constants"]
+- !private ["PSs23CustomStringConvertible", "CoreDataStackManager"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "Element"]
+- ["PSs23CustomStringConvertible", "FlickrClient"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "HTTPMethod"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "JSONObjectWithData"]
+- !private ["PSs23CustomStringConvertible", "Key"]
+- !private ["PSs23CustomStringConvertible", "Keys"]
+- !private ["PSs23CustomStringConvertible", "NSCharacterSet"]
+- !private ["PSs23CustomStringConvertible", "NSJSONReadingOptions"]
+- !private ["PSs23CustomStringConvertible", "NSJSONSerialization"]
+- !private ["PSs23CustomStringConvertible", "NSMutableURLRequest"]
+- !private ["PSs23CustomStringConvertible", "NSURL"]
+- !private ["PSs23CustomStringConvertible", "NSURLSession"]
+- !private ["PSs23CustomStringConvertible", "Picture"]
+- !private ["PSs23CustomStringConvertible", "String"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "URLQueryAllowedCharacterSet"]
+- !private ["PSs23CustomStringConvertible", "Value"]
+- !private ["PSs23CustomStringConvertible", "_Buffer"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "append"]
+- !private ["PSs23CustomStringConvertible", "count"]
+- !private ["PSs23CustomStringConvertible", "dataTaskWithRequest"]
+- !private ["PSs23CustomStringConvertible", "destination"]
+- ["PSs23CustomStringConvertible", "escapedParameters"]
+- ["PSs23CustomStringConvertible", "getImagesFromFlickr"]
+- ["PSs23CustomStringConvertible", "handleFlickr"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "isEmpty"]
+- !private ["PSs23CustomStringConvertible", "joinWithSeparator"]
+- !private ["PSs23CustomStringConvertible", "lat"]
+- !private ["PSs23CustomStringConvertible", "lon"]
+- !private ["PSs23CustomStringConvertible", "resume"]
+- ["PSs23CustomStringConvertible", "session"]
+- ["PSs23CustomStringConvertible", "sharedInstance"]
+- !private ["PSs23CustomStringConvertible", "sharedSession"]
+- !private ["PSs23CustomStringConvertible", "statusCode"]
+- !private ["PSs23CustomStringConvertible", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["VSs10Dictionary", "Generator"]
+- !private ["VSs10Dictionary", "Index"]
+- !private ["VSs10Dictionary", "Key"]
+- !private ["VSs10Dictionary", "Value"]
+- !private ["VSs10Dictionary", "deinit"]
+- !private ["VSs10Dictionary", "subscript"]
+- !private ["VSs19DictionaryGenerator", "Element"]
+- !private ["PSs28DictionaryLiteralConvertible", "Generator"]
+- !private ["PSs28DictionaryLiteralConvertible", "Index"]
+- !private ["PSs28DictionaryLiteralConvertible", "Key"]
+- !private ["PSs28DictionaryLiteralConvertible", "Value"]
+- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "AllowFragments"]
+- !private ["PSs9Equatable", "Constants"]
+- !private ["PSs9Equatable", "CoreDataStackManager"]
+- !private ["PSs9Equatable", "Distance"]
+- ["PSs9Equatable", "FlickrClient"]
+- !private ["PSs9Equatable", "HTTPMethod"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "JSONObjectWithData"]
+- !private ["PSs9Equatable", "Keys"]
+- !private ["PSs9Equatable", "NSCharacterSet"]
+- !private ["PSs9Equatable", "NSJSONReadingOptions"]
+- !private ["PSs9Equatable", "NSJSONSerialization"]
+- !private ["PSs9Equatable", "NSMutableURLRequest"]
+- !private ["PSs9Equatable", "NSURL"]
+- !private ["PSs9Equatable", "NSURLSession"]
+- !private ["PSs9Equatable", "Picture"]
+- !private ["PSs9Equatable", "String"]
+- !private ["PSs9Equatable", "URLQueryAllowedCharacterSet"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "dataTaskWithRequest"]
+- !private ["PSs9Equatable", "destination"]
+- ["PSs9Equatable", "escapedParameters"]
+- ["PSs9Equatable", "getImagesFromFlickr"]
+- ["PSs9Equatable", "handleFlickr"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "lat"]
+- !private ["PSs9Equatable", "lon"]
+- !private ["PSs9Equatable", "resume"]
+- ["PSs9Equatable", "session"]
+- ["PSs9Equatable", "sharedInstance"]
+- !private ["PSs9Equatable", "sharedSession"]
+- !private ["PSs9Equatable", "statusCode"]
+- !private ["PSs9Equatable", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- ["C15Virtual_Tourist12FlickrClient", "AnyObject"]
+- ["C15Virtual_Tourist12FlickrClient", "Bool"]
+- !private ["C15Virtual_Tourist12FlickrClient", "Constants"]
+- !private ["C15Virtual_Tourist12FlickrClient", "CoreDataStackManager"]
+- ["C15Virtual_Tourist12FlickrClient", "FlickrClient"]
+- !private ["C15Virtual_Tourist12FlickrClient", "Keys"]
+- ["C15Virtual_Tourist12FlickrClient", "Location"]
+- !private ["C15Virtual_Tourist12FlickrClient", "NSCharacterSet"]
+- ["C15Virtual_Tourist12FlickrClient", "NSError"]
+- !private ["C15Virtual_Tourist12FlickrClient", "NSHTTPURLResponse"]
+- !private ["C15Virtual_Tourist12FlickrClient", "NSJSONReadingOptions"]
+- !private ["C15Virtual_Tourist12FlickrClient", "NSJSONSerialization"]
+- !private ["C15Virtual_Tourist12FlickrClient", "NSMutableURLRequest"]
+- !private ["C15Virtual_Tourist12FlickrClient", "NSURL"]
+- ["C15Virtual_Tourist12FlickrClient", "NSURLSession"]
+- !private ["C15Virtual_Tourist12FlickrClient", "Picture"]
+- ["C15Virtual_Tourist12FlickrClient", "String"]
+- ["C15Virtual_Tourist12FlickrClient", "Void"]
+- ["C15Virtual_Tourist12FlickrClient", "deinit"]
+- ["C15Virtual_Tourist12FlickrClient", "escapedParameters"]
+- ["C15Virtual_Tourist12FlickrClient", "getImagesFromFlickr"]
+- ["C15Virtual_Tourist12FlickrClient", "handleFlickr"]
+- ["C15Virtual_Tourist12FlickrClient", "init"]
+- ["C15Virtual_Tourist12FlickrClient", "session"]
+- ["C15Virtual_Tourist12FlickrClient", "sharedInstance"]
+- !private ["Sf", "deinit"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "Constants"]
+- !private ["PSs8Hashable", "CoreDataStackManager"]
+- !private ["PSs8Hashable", "Distance"]
+- ["PSs8Hashable", "FlickrClient"]
+- !private ["PSs8Hashable", "HTTPMethod"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "JSONObjectWithData"]
+- !private ["PSs8Hashable", "Keys"]
+- !private ["PSs8Hashable", "NSCharacterSet"]
+- !private ["PSs8Hashable", "NSJSONReadingOptions"]
+- !private ["PSs8Hashable", "NSJSONSerialization"]
+- !private ["PSs8Hashable", "NSMutableURLRequest"]
+- !private ["PSs8Hashable", "NSURL"]
+- !private ["PSs8Hashable", "NSURLSession"]
+- !private ["PSs8Hashable", "Picture"]
+- !private ["PSs8Hashable", "String"]
+- !private ["PSs8Hashable", "URLQueryAllowedCharacterSet"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "dataTaskWithRequest"]
+- !private ["PSs8Hashable", "destination"]
+- ["PSs8Hashable", "escapedParameters"]
+- ["PSs8Hashable", "getImagesFromFlickr"]
+- ["PSs8Hashable", "handleFlickr"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "lat"]
+- !private ["PSs8Hashable", "lon"]
+- !private ["PSs8Hashable", "resume"]
+- ["PSs8Hashable", "session"]
+- ["PSs8Hashable", "sharedInstance"]
+- !private ["PSs8Hashable", "sharedSession"]
+- !private ["PSs8Hashable", "statusCode"]
+- !private ["PSs8Hashable", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Element"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "Value"]
+- !private ["PSs9Indexable", "_Buffer"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "append"]
+- !private ["PSs9Indexable", "count"]
+- !private ["PSs9Indexable", "init"]
+- !private ["PSs9Indexable", "isEmpty"]
+- !private ["PSs9Indexable", "joinWithSeparator"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["VC15Virtual_Tourist12FlickrClient4Keys", "API_KEY"]
+- !private ["VC15Virtual_Tourist12FlickrClient4Keys", "EXTRAS"]
+- !private ["VC15Virtual_Tourist12FlickrClient4Keys", "FORMAT"]
+- !private ["VC15Virtual_Tourist12FlickrClient4Keys", "LAT"]
+- !private ["VC15Virtual_Tourist12FlickrClient4Keys", "LON"]
+- !private ["VC15Virtual_Tourist12FlickrClient4Keys", "METHOD"]
+- !private ["VC15Virtual_Tourist12FlickrClient4Keys", "NO_JSON_CALLBACK"]
+- !private ["VC15Virtual_Tourist12FlickrClient4Keys", "SAFE_SEARCH"]
+- !private ["C15Virtual_Tourist8Location", "lat"]
+- !private ["C15Virtual_Tourist8Location", "lon"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSs14MirrorPathType", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- !private ["PSs21MutableCollectionType", "Element"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "_Buffer"]
+- !private ["PSs21MutableCollectionType", "_Element"]
+- !private ["PSs21MutableCollectionType", "append"]
+- !private ["PSs21MutableCollectionType", "count"]
+- !private ["PSs21MutableCollectionType", "init"]
+- !private ["PSs21MutableCollectionType", "isEmpty"]
+- !private ["PSs21MutableCollectionType", "joinWithSeparator"]
+- !private ["PSs16MutableIndexable", "Element"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "_Buffer"]
+- !private ["PSs16MutableIndexable", "_Element"]
+- !private ["PSs16MutableIndexable", "append"]
+- !private ["PSs16MutableIndexable", "count"]
+- !private ["PSs16MutableIndexable", "init"]
+- !private ["PSs16MutableIndexable", "isEmpty"]
+- !private ["PSs16MutableIndexable", "joinWithSeparator"]
+- !private ["PSs16MutableSliceable", "Element"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "_Buffer"]
+- !private ["PSs16MutableSliceable", "_Element"]
+- !private ["PSs16MutableSliceable", "append"]
+- !private ["PSs16MutableSliceable", "count"]
+- !private ["PSs16MutableSliceable", "init"]
+- !private ["PSs16MutableSliceable", "isEmpty"]
+- !private ["PSs16MutableSliceable", "joinWithSeparator"]
+- !private ["CSo14NSCharacterSet", "URLQueryAllowedCharacterSet"]
+- !private ["PSo8NSCoding", "HTTPMethod"]
+- !private ["PSo8NSCoding", "URLQueryAllowedCharacterSet"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "statusCode"]
+- !private ["PSo8NSCoding", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- !private ["PSo9NSCopying", "HTTPMethod"]
+- !private ["PSo9NSCopying", "URLQueryAllowedCharacterSet"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "resume"]
+- !private ["PSo9NSCopying", "statusCode"]
+- !private ["PSo9NSCopying", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- !private ["CSo17NSHTTPURLResponse", "statusCode"]
+- !private ["VSC20NSJSONReadingOptions", "AllowFragments"]
+- !private ["CSo19NSJSONSerialization", "JSONObjectWithData"]
+- !private ["CSo15NSManagedObject", "destination"]
+- !private ["CSo15NSManagedObject", "init"]
+- !private ["CSo15NSManagedObject", "lat"]
+- !private ["CSo15NSManagedObject", "lon"]
+- !private ["PSo16NSMutableCopying", "HTTPMethod"]
+- !private ["PSo16NSMutableCopying", "URLQueryAllowedCharacterSet"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- !private ["CSo19NSMutableURLRequest", "HTTPMethod"]
+- !private ["CSo19NSMutableURLRequest", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "Constants"]
+- !private ["CSo8NSObject", "CoreDataStackManager"]
+- ["CSo8NSObject", "FlickrClient"]
+- !private ["CSo8NSObject", "HTTPMethod"]
+- !private ["CSo8NSObject", "JSONObjectWithData"]
+- !private ["CSo8NSObject", "Keys"]
+- ["CSo8NSObject", "Location"]
+- !private ["CSo8NSObject", "NSCharacterSet"]
+- ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "NSHTTPURLResponse"]
+- !private ["CSo8NSObject", "NSJSONReadingOptions"]
+- !private ["CSo8NSObject", "NSJSONSerialization"]
+- !private ["CSo8NSObject", "NSMutableURLRequest"]
+- !private ["CSo8NSObject", "NSURL"]
+- ["CSo8NSObject", "NSURLSession"]
+- !private ["CSo8NSObject", "Picture"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "URLQueryAllowedCharacterSet"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "dataTaskWithRequest"]
+- !private ["CSo8NSObject", "destination"]
+- ["CSo8NSObject", "escapedParameters"]
+- ["CSo8NSObject", "getImagesFromFlickr"]
+- ["CSo8NSObject", "handleFlickr"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "lat"]
+- !private ["CSo8NSObject", "lon"]
+- !private ["CSo8NSObject", "resume"]
+- ["CSo8NSObject", "session"]
+- ["CSo8NSObject", "sharedInstance"]
+- !private ["CSo8NSObject", "sharedSession"]
+- !private ["CSo8NSObject", "statusCode"]
+- !private ["CSo8NSObject", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "Constants"]
+- !private ["PSo16NSObjectProtocol", "CoreDataStackManager"]
+- ["PSo16NSObjectProtocol", "FlickrClient"]
+- !private ["PSo16NSObjectProtocol", "HTTPMethod"]
+- !private ["PSo16NSObjectProtocol", "JSONObjectWithData"]
+- !private ["PSo16NSObjectProtocol", "Keys"]
+- !private ["PSo16NSObjectProtocol", "NSCharacterSet"]
+- !private ["PSo16NSObjectProtocol", "NSJSONReadingOptions"]
+- !private ["PSo16NSObjectProtocol", "NSJSONSerialization"]
+- !private ["PSo16NSObjectProtocol", "NSMutableURLRequest"]
+- !private ["PSo16NSObjectProtocol", "NSURL"]
+- !private ["PSo16NSObjectProtocol", "NSURLSession"]
+- !private ["PSo16NSObjectProtocol", "Picture"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "URLQueryAllowedCharacterSet"]
+- !private ["PSo16NSObjectProtocol", "dataTaskWithRequest"]
+- !private ["PSo16NSObjectProtocol", "destination"]
+- ["PSo16NSObjectProtocol", "escapedParameters"]
+- ["PSo16NSObjectProtocol", "getImagesFromFlickr"]
+- ["PSo16NSObjectProtocol", "handleFlickr"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "lat"]
+- !private ["PSo16NSObjectProtocol", "lon"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- ["PSo16NSObjectProtocol", "session"]
+- ["PSo16NSObjectProtocol", "sharedInstance"]
+- !private ["PSo16NSObjectProtocol", "sharedSession"]
+- !private ["PSo16NSObjectProtocol", "statusCode"]
+- !private ["PSo16NSObjectProtocol", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "HTTPMethod"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "statusCode"]
+- !private ["PSo14NSSecureCoding", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- !private ["CSo5NSURL", "init"]
+- !private ["CSo12NSURLRequest", "HTTPMethod"]
+- !private ["CSo12NSURLRequest", "init"]
+- !private ["CSo13NSURLResponse", "statusCode"]
+- !private ["CSo12NSURLSession", "dataTaskWithRequest"]
+- !private ["CSo12NSURLSession", "sharedSession"]
+- !private ["CSo20NSURLSessionDataTask", "resume"]
+- !private ["CSo16NSURLSessionTask", "resume"]
+- !private ["PSs21NilLiteralConvertible", "Some"]
+- !private ["PSs13OptionSetType", "AllowFragments"]
+- !private ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs16OutputStreamType", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- !private ["C15Virtual_Tourist7Picture", "destination"]
+- !private ["C15Virtual_Tourist7Picture", "init"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs30RangeReplaceableCollectionType", "Element"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "_Buffer"]
+- !private ["PSs30RangeReplaceableCollectionType", "_Element"]
+- !private ["PSs30RangeReplaceableCollectionType", "append"]
+- !private ["PSs30RangeReplaceableCollectionType", "count"]
+- !private ["PSs30RangeReplaceableCollectionType", "init"]
+- !private ["PSs30RangeReplaceableCollectionType", "isEmpty"]
+- !private ["PSs30RangeReplaceableCollectionType", "joinWithSeparator"]
+- !private ["PSs16RawRepresentable", "AllowFragments"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "Value"]
+- !private ["PSs12SequenceType", "_Buffer"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "append"]
+- !private ["PSs12SequenceType", "count"]
+- !private ["PSs12SequenceType", "init"]
+- !private ["PSs12SequenceType", "isEmpty"]
+- !private ["PSs12SequenceType", "joinWithSeparator"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["PSs14SetAlgebraType", "AllowFragments"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Streamable", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs30StringInterpolationConvertible", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- !private ["PSs10_ArrayType", "Element"]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "_Buffer"]
+- !private ["PSs10_ArrayType", "_Element"]
+- !private ["PSs10_ArrayType", "append"]
+- !private ["PSs10_ArrayType", "count"]
+- !private ["PSs10_ArrayType", "init"]
+- !private ["PSs10_ArrayType", "isEmpty"]
+- !private ["PSs10_ArrayType", "joinWithSeparator"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs16_CocoaStringType", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- !private ["PSs24_DestructorSafeContainer", "Element"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "_Buffer"]
+- !private ["PSs24_DestructorSafeContainer", "_Element"]
+- !private ["PSs24_DestructorSafeContainer", "append"]
+- !private ["PSs24_DestructorSafeContainer", "count"]
+- !private ["PSs24_DestructorSafeContainer", "init"]
+- !private ["PSs24_DestructorSafeContainer", "isEmpty"]
+- !private ["PSs24_DestructorSafeContainer", "joinWithSeparator"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Key"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "Value"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Buffer"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "append"]
+- !private ["PSs21_ObjectiveCBridgeable", "count"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["PSs21_ObjectiveCBridgeable", "joinWithSeparator"]
+- !private ["PSs21_ObjectiveCBridgeable", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Element"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Key"]
+- !private ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "Value"]
+- !private ["PSs12_Reflectable", "_Buffer"]
+- !private ["PSs12_Reflectable", "_Element"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "append"]
+- !private ["PSs12_Reflectable", "count"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "isEmpty"]
+- !private ["PSs12_Reflectable", "joinWithSeparator"]
+- !private ["PSs12_Reflectable", "stringByAddingPercentEncodingWithAllowedCharacters"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "VC15Virtual_Tourist12FlickrClient9Constants"
+- !private "C15Virtual_Tourist20CoreDataStackManager"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "VSs19DictionaryGenerator"
+- !private "PSs28DictionaryLiteralConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- "C15Virtual_Tourist12FlickrClient"
+- !private "Sf"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "VC15Virtual_Tourist12FlickrClient4Keys"
+- !private "C15Virtual_Tourist8Location"
+- !private "PSs14MirrorPathType"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- !private "CSo14NSCharacterSet"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo17NSHTTPURLResponse"
+- !private "VSC20NSJSONReadingOptions"
+- !private "CSo19NSJSONSerialization"
+- !private "CSo15NSManagedObject"
+- !private "PSo16NSMutableCopying"
+- !private "CSo19NSMutableURLRequest"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo5NSURL"
+- !private "CSo12NSURLRequest"
+- !private "CSo13NSURLResponse"
+- !private "CSo12NSURLSession"
+- !private "CSo20NSURLSessionDataTask"
+- !private "CSo16NSURLSessionTask"
+- !private "PSs21NilLiteralConvertible"
+- !private "PSs13OptionSetType"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- !private "C15Virtual_Tourist7Picture"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs16RawRepresentable"
+- !private "PSs12SequenceType"
+- !private "PSs14SetAlgebraType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "VSs5Slice"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+interface-hash: "899383f3e6b1afccbeb6550733681f58"

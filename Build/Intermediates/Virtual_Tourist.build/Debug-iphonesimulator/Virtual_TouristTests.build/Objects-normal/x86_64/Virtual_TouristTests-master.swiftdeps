@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
+options: "98d53107d55b2749623d7d93d1b14d41"
+build_time: [498408752, 79854000]
+inputs: 
+	"/Users/shimmennobuyoshi/Downloads/Virtual_Tourist-master/Virtual_TouristTests/Virtual_TouristTests.swift": [488628658, 0]

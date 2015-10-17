@@ -1,0 +1,8 @@
+[
+ {
+  "file": "/Users/shimmennobuyoshi/Downloads/Virtual_Tourist-master/Virtual_Tourist/ImageHandler.swift",
+  "offset": 1854,
+  "remove": 45,
+  "text": "do {\n            try manager.removeItemAtPath(path)\n        } catch let error1 as NSError {\n            error = error1\n        }",
+ }
+]
